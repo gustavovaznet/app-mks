@@ -1,7 +1,7 @@
 //ASSETS
-import logoImg from '../../assets/img/logo.svg'
+import logoImg from '../../assets/img/logo.svg';
 //CSS
-import './styles.css'
+import './styles.css';
 
 //HEADER COMPONENT
 function Header() {
@@ -20,4 +20,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Header;

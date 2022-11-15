@@ -1,10 +1,10 @@
 //COMPONENTS
-import NotificationButton from "../NotificationButton"
+import NotificationButton from "../NotificationButton";
 //DATE PICKER
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 //CSS
-import './styles.css'
+import './styles.css';
 //HOOKS
 import { useState } from "react";
 
@@ -101,4 +101,4 @@ function SalesCard() {
   )
 }
 
-export default SalesCard
+export default SalesCard;
