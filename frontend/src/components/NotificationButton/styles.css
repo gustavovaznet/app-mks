@@ -1,5 +1,4 @@
 /*NOTIFICATION BUTTON CSS*/
-
 .mksshop-red-btn {
     height: 45px;
     width: 45px;
@@ -10,9 +9,8 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-  }
-  
-  .mksshop-red-btn img {
-      width: 19px;
-  }
-  
+}
+
+.mksshop-red-btn img {
+    width: 19px;
+}

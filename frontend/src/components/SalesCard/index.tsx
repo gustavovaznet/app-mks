@@ -1,14 +1,17 @@
+//COMPONENTS
 import NotificationButton from "../NotificationButton"
-
+//DATE PICKER
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-
+//CSS
 import './styles.css'
+//HOOKS
 import { useState } from "react";
 
 //SALES CARD COMPONENT
 function SalesCard() {
 
+  //CHANGE STATE SET DATE
   const min = new Date(new Date().setDate(new Date().getDate() - 365));
   const max = new Date();
 
