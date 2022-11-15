@@ -1,6 +1,20 @@
+//IMPORT COMPONENTS
+import Header from "./components/Header"
+import SalesCard from "./components/SalesCard"
+
+//APP
 function App() {
   return (
-    <h1>TEST!!!!!</h1>
+    <>
+      <Header/>
+      <main>
+        <section id="sales">
+          <div className="mksshop-container">
+            <SalesCard/>
+          </div>
+        </section>
+      </main>
+    </>
   )
 }
 
