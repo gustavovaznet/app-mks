@@ -1,13 +1,20 @@
+//AXIOS
 import axios from 'axios';
+//TOAST
 import { toast } from 'react-toastify';
+//ASSETS
 import notificationImg from '../../assets/img/notification-icon.svg';
+//BASE URL API
 import { BASE_URL } from '../../utils/request';
+//CSS
 import './styles.css';
 
+//PROPS
 type Props = {
   saleId: number;
 }
 
+//HANDLE CLICK FUNCTION
 function handleClick(id: number){
   axios(`${BASE_URL}/sales/${id}/notification`)
   .then(response => {
