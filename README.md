@@ -11,7 +11,7 @@ Simple Javascript/Java app developed using ReactJS and Spring Boot frameworks.
 	<tr>
 		<td>
       <br>
-			<img width="1080" src="">
+			<img width="1080" src="https://user-images.githubusercontent.com/98855318/202863061-217c38c8-e1c0-4d26-bbd5-d50afb07e978.png">
 		</td>   
 	</tr>
 </table>
